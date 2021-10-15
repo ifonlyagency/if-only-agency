@@ -1,0 +1,19 @@
+$font-stack: Helvetica, sans-serif;
+
+body {
+    font: 100% $font-stack;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}

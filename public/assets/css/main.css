@@ -1,0 +1,265 @@
+#wrapper {
+  background-color: #2e2d2d;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+}
+#nav-list li {
+  list-style: none;
+  margin: 1rem 2rem;
+  padding: 5px;
+}
+#nav-list li:hover {
+  border-bottom: 3px solid #e6d470;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.active-li {
+  border-bottom: 3px solid #e6d470;
+  color: #e6d470;
+}
+
+.active-link {
+  color: #e6d470;
+}
+
+#email-container {
+  background-color: #3f5222;
+  display: flex;
+  height: 145px;
+  justify-content: center;
+  margin: -1rem 0 0 0;
+  padding: 0;
+}
+
+#mission-vision {
+  background-color: #e0dab6;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin: -1rem;
+  padding: 0;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+#placeholder-section {
+  padding: 5rem;
+}
+
+#placeholder-title {
+  color: black;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.component {
+  display: flex;
+}
+
+.component-img {
+  border: transparent;
+  border-radius: 50%;
+  margin: 0 2rem;
+}
+
+.content {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  margin-top: 1rem;
+  width: 25%;
+}
+
+.align-right {
+  align-self: flex-end;
+}
+
+.contact-container {
+  background-color: white;
+  display: flex;
+  height: 135px;
+  justify-content: center;
+  margin: -1rem 0 0 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #2e2d2d;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#footer-list {
+  display: flex;
+  justify-content: center;
+}
+#footer-list li {
+  list-style: none;
+  margin: 1rem 2rem;
+  padding: 5px;
+}
+#footer-list li:hover {
+  border-bottom: 3px solid #e6d470;
+}
+
+#social-icons {
+  margin: 1rem 0;
+}
+
+.icon {
+  border: transparent;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
+
+#mailto-link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.placeholder {
+  align-items: center;
+  background-color: lightgray;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  width: 25%;
+}
+
+.hero-img {
+  background-color: lightgray;
+  height: 600px;
+  width: 100%;
+}
+
+.services-component {
+  background-color: #e0dab6;
+  margin: 3rem;
+}
+
+.h1-title {
+  color: black;
+  padding: 2rem 0rem 0rem 0rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 0rem 2rem;
+}
+
+.services-content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 20%;
+}
+
+.services-icon {
+  border: transparent;
+  border-radius: 50%;
+  margin: 2rem;
+  width: 75px;
+  height: 75px;
+}
+
+.description-content {
+  margin: 1rem 2rem;
+}
+.description-content p {
+  margin: 2rem;
+  line-height: 1.5;
+  text-indent: 40px;
+}
+
+.contact-form-container {
+  background-color: #3f5222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+  margin: 1rem auto;
+}
+
+.gray-placeholder {
+  width: 800px;
+  background-color: lightgray;
+  height: 50px;
+  margin: 0.5rem 1rem;
+}
+
+.lg-gray-placeholder {
+  width: 800px;
+  background-color: lightgray;
+  height: 200px;
+  margin: 0.5rem 1rem;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.team-member img {
+  border: transparent;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.team-member h3 {
+  background-color: lightgray;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+section {
+    margin: 1rem 0;
+}
+
+#placeholder-section {
+    padding: 5rem;
+}
+
+#placeholder-title {
+    color: black;
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.component {
+    display: flex;
+}
+
+.component-img {
+    border: transparent;
+    border-radius: 50%;
+    margin: 0 2rem;
+}
+
+.content {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    margin-top: 1rem;
+    width: 25%;
+}
+
+.align-right {
+    align-self: flex-end;
+}

@@ -1,0 +1,22 @@
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+
+}
+
+.team-member {
+    img {
+        border: transparent;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+
+    }
+
+    h3 {
+        background-color: lightgray;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
