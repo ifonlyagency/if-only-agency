@@ -262,4 +262,22 @@ h2 {
   text-transform: uppercase;
 }
 
+.bg-black {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.index-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.index-wrapper img {
+  height: auto;
+  width: 75%;
+}
+
 /*# sourceMappingURL=main.css.map */
