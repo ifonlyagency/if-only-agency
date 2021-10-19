@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(46, 45, 45);
+    border-top: 3px solid #C6B79B;
     padding: 1rem;
     text-align: center;
     width: 100%;
@@ -15,8 +15,8 @@ footer {
         padding: 5px;
     }
 
-    li:hover {
-        border-bottom: 3px solid rgb(230, 212, 112);
+    li a:hover {
+        border-bottom: 3px solid #C6B79B;
     }
 }
 

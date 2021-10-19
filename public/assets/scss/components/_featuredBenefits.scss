@@ -3,7 +3,7 @@ section {
 }
 
 #placeholder-section {
-    padding: 5rem;
+    padding: 5rem 5rem 2rem 5rem;
 }
 
 #placeholder-title {
@@ -14,11 +14,18 @@ section {
 }
 
 .component {
+    border-bottom: 3px solid #41462A;
     display: flex;
+    padding: 1.5rem 0;
+
+    h2 {
+        color: #41462A;
+    }
+    
 }
 
 .component-img {
-    border: transparent;
+    border: 3px solid #C6B79B;
     border-radius: 50%;
     margin: 0 2rem;
 }
@@ -31,8 +38,14 @@ section {
 }
 
 button {
+    background-color: #C6B79B;
+    border: transparent;
+    border-radius: 10px;
+    color: white;
     margin-top: 1rem;
-    width: 25%;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 20%;
 }
 
 .align-right {

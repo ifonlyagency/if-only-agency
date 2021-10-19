@@ -1,5 +1,5 @@
 .services-component {
-    background-color: rgb(224, 218, 182);
+    border-top: 5px solid #C6B79B;
     margin: 3rem;
 }
 
@@ -13,21 +13,26 @@
 .services-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    justify-content: space-evenly;
     margin: 0rem 2rem;
+    padding: 1rem;
 }
 
 .services-content-wrapper {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    width: 20%;
+    padding: 2rem;
+    width: 25%;
+
+    p {
+        line-height: 1.25;
+        text-align: center;
+    }
 }
 
 .services-icon {
     border: transparent;
-    border-radius: 50%;
     margin: 2rem;
     width: 75px;
     height: 75px;

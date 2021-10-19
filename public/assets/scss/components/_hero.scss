@@ -1,5 +1,13 @@
+.hero-imgs {
+    display: flex;
+    padding: 0 1rem;
+}
+
 .hero-img {
     background-color: lightgray;
-    height: 600px;
-    width: 100%;
+    border: 5px solid #C6B79B;
+    border-radius: 10px;
+    height: 350px;
+    margin: 3rem 1rem;
+    width: 33.333%;
 }

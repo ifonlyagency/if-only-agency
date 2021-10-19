@@ -6,4 +6,18 @@
     margin: -1rem 0 0 0;
     padding: 0;
     text-transform: uppercase;
+
+    .placeholder {
+        background-color: #C6B79B;
+        border: transparent;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        width: 25vw;
+
+        p {
+            font-size: 1.75vw;
+        }
+    }
 }

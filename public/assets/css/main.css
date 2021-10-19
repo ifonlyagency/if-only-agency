@@ -1,55 +1,98 @@
 #wrapper {
-  background-color: #2e2d2d;
-  padding: 1rem;
+  border-bottom: 3px solid #C6B79B;
+  padding: 0.5rem 1rem;
   text-align: center;
   width: 100%;
 }
 
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
 #nav-list {
   display: flex;
-  justify-content: center;
 }
 #nav-list li {
   list-style: none;
   margin: 1rem 2rem;
   padding: 5px;
 }
-#nav-list li:hover {
-  border-bottom: 3px solid #e6d470;
-}
 
 .nav-link {
-  color: white;
+  color: #C6B79B;
   font-size: 20px;
+  padding: 5px 15px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.active-li {
-  border-bottom: 3px solid #e6d470;
-  color: #e6d470;
+.nav-link:hover {
+  border-bottom: 3px solid #C6B79B;
 }
 
 .active-link {
-  color: #e6d470;
+  border-bottom: 3px solid #C6B79B;
+  color: #2e2d2d;
+}
+
+#video-placeholder {
+  align-items: center;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  margin-top: 3rem;
+  width: 100%;
+}
+#video-placeholder p {
+  font-size: 2vw;
 }
 
 #email-container {
-  background-color: #3f5222;
   display: flex;
-  height: 145px;
+  height: 135px;
   justify-content: center;
-  margin: -1rem 0 0 0;
+  margin: 0 0 1rem 0;
   padding: 0;
+}
+#email-container .placeholder {
+  background-color: #C6B79B;
+  border: transparent;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 15vw;
+}
+#email-container .placeholder p {
+  font-size: 1.75vw;
+}
+#email-container .placeholder #email-icon {
+  filter: invert(1);
+  height: 40px;
+  width: 40px;
 }
 
 #mission-vision {
-  background-color: #e0dab6;
+  align-items: center;
+  background-color: #C6B79B;
+  border-top: 6px solid #41462A;
+  border-bottom: 6px solid #41462A;
   display: flex;
+  flex-direction: column;
+  font-size: 1.25vw;
   height: 300px;
-  justify-content: center;
+  justify-content: space-evenly;
+  line-height: 1.5;
   margin: -1rem;
-  padding: 0;
+  padding: 0 20rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+#mission-vision h1 {
+  color: #41462A;
 }
 
 section {
@@ -57,7 +100,7 @@ section {
 }
 
 #placeholder-section {
-  padding: 5rem;
+  padding: 5rem 5rem 2rem 5rem;
 }
 
 #placeholder-title {
@@ -68,11 +111,16 @@ section {
 }
 
 .component {
+  border-bottom: 3px solid #41462A;
   display: flex;
+  padding: 1.5rem 0;
+}
+.component h2 {
+  color: #41462A;
 }
 
 .component-img {
-  border: transparent;
+  border: 3px solid #C6B79B;
   border-radius: 50%;
   margin: 0 2rem;
 }
@@ -85,8 +133,14 @@ section {
 }
 
 button {
+  background-color: #C6B79B;
+  border: transparent;
+  border-radius: 10px;
+  color: white;
   margin-top: 1rem;
-  width: 25%;
+  padding: 1rem;
+  text-transform: uppercase;
+  width: 20%;
 }
 
 .align-right {
@@ -102,9 +156,21 @@ button {
   padding: 0;
   text-transform: uppercase;
 }
+.contact-container .placeholder {
+  background-color: #C6B79B;
+  border: transparent;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+}
+.contact-container .placeholder p {
+  font-size: 1.75vw;
+}
 
 footer {
-  background-color: #2e2d2d;
+  border-top: 3px solid #C6B79B;
   padding: 1rem;
   text-align: center;
   width: 100%;
@@ -119,8 +185,8 @@ footer {
   margin: 1rem 2rem;
   padding: 5px;
 }
-#footer-list li:hover {
-  border-bottom: 3px solid #e6d470;
+#footer-list li a:hover {
+  border-bottom: 3px solid #C6B79B;
 }
 
 #social-icons {
@@ -169,14 +235,22 @@ h2 {
   width: 25%;
 }
 
+.hero-imgs {
+  display: flex;
+  padding: 0 1rem;
+}
+
 .hero-img {
   background-color: lightgray;
-  height: 600px;
-  width: 100%;
+  border: 5px solid #C6B79B;
+  border-radius: 10px;
+  height: 350px;
+  margin: 3rem 1rem;
+  width: 33.333%;
 }
 
 .services-component {
-  background-color: #e0dab6;
+  border-top: 5px solid #C6B79B;
   margin: 3rem;
 }
 
@@ -190,24 +264,33 @@ h2 {
 .services-grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  justify-content: space-evenly;
   margin: 0rem 2rem;
+  padding: 1rem;
 }
 
 .services-content-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  width: 20%;
+  padding: 2rem;
+  width: 25%;
+}
+.services-content-wrapper p {
+  line-height: 1.25;
+  text-align: center;
 }
 
 .services-icon {
   border: transparent;
-  border-radius: 50%;
   margin: 2rem;
   width: 75px;
   height: 75px;
+}
+
+#about-section {
+  border-top: 3px solid #C6B79B;
+  padding: 3rem 0;
 }
 
 .description-content {
@@ -220,14 +303,15 @@ h2 {
 }
 
 .contact-form-container {
-  background-color: #3f5222;
+  border: 10px solid #C6B79B;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 1000px;
   height: 600px;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .gray-placeholder {
@@ -236,6 +320,9 @@ h2 {
   height: 50px;
   margin: 0.5rem 1rem;
 }
+.gray-placeholder p {
+  margin: 1rem;
+}
 
 .lg-gray-placeholder {
   width: 800px;
@@ -243,20 +330,24 @@ h2 {
   height: 200px;
   margin: 0.5rem 1rem;
 }
+.lg-gray-placeholder p {
+  margin: 1rem;
+}
 
 .team-container {
+  border-bottom: 3px solid #C6B79B;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 .team-member img {
-  border: transparent;
+  border: 3px solid #C6B79B;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
 .team-member h3 {
-  background-color: lightgray;
+  margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   text-align: center;
   text-transform: uppercase;
