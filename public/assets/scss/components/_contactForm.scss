@@ -5,15 +5,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1000px;
-    height: 600px;
+    width: 75vw;
+    height: 60vh;
     margin: 2rem auto;
 }
 
 .gray-placeholder {
-    width: 800px;
+    width: 65vw;
     background-color: lightgray;
-    height: 50px;
+    height: 5vh;
     margin: 0.5rem 1rem;
 
     p {
@@ -22,9 +22,9 @@
 }
 
 .lg-gray-placeholder {
-    width: 800px;
+    width: 65vw;
     background-color: lightgray;
-    height: 200px;
+    height: 20vh;
     margin: 0.5rem 1rem;
 
     p {
