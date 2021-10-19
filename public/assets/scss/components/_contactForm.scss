@@ -1,12 +1,13 @@
 .contact-form-container {
-    background-color: rgb(63, 82, 34);
+    border: 10px solid #C6B79B;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 1000px;
     height: 600px;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 
 .gray-placeholder {
@@ -15,6 +16,9 @@
     height: 50px;
     margin: 0.5rem 1rem;
 
+    p {
+        margin: 1rem;
+    }
 }
 
 .lg-gray-placeholder {
@@ -22,4 +26,8 @@
     background-color: lightgray;
     height: 200px;
     margin: 0.5rem 1rem;
+
+    p {
+        margin: 1rem;
+    }
 }
