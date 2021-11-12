@@ -19,10 +19,18 @@
     }
 }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
 
     #mission-vision {
-        padding: 0 10rem;
+        padding: 0 5rem;
+
+        h1 {
+            font-size: 5vw;
+        }
+
+        p {
+            font-size: 2.5vw;
+        }
     }
 }
 

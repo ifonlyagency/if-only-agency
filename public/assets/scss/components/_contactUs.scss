@@ -21,3 +21,16 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        .placeholder {
+            width: 33.33vw;
+
+            p {
+                font-size: 3.5vw;
+            }
+        }
+    }
+    
+}

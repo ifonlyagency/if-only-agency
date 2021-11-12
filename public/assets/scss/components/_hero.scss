@@ -11,3 +11,16 @@
     margin: 3rem 1rem;
     width: 33.333%;
 }
+
+@media screen and (max-width: 768px) {
+    .hero-imgs {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-img {
+        width: 80vw;
+        margin: 2vh 2vw;
+    }
+    
+}
