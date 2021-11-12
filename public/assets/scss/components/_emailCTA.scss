@@ -25,3 +25,22 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    #email-container {
+        .placeholder {
+            width: 33.333vw;
+
+            p {
+                font-size: 3vw;
+            }
+
+            #email-icon {
+                filter: invert(1);
+                height: 4vw;
+                width: 4vw;
+            }
+        }
+    }
+    
+}

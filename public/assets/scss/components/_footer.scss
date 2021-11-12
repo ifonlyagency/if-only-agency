@@ -20,6 +20,16 @@ footer {
     }
 }
 
+#footer-logo {
+    width: 100px;
+    height: 100px;
+    background-color: #C6B79B;
+    border: transparent;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #social-icons {
     margin: 1rem 0;
 }
@@ -31,7 +41,13 @@ footer {
 }
 
 #mailto-link {
-    color: white;
+    color: #C6B79B;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #footer-list {
+        display: none;
+    }
 }

@@ -37,6 +37,58 @@
   color: #2e2d2d;
 }
 
+.ham-bar {
+  width: 35px;
+  height: 5px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: #C6B79B;
+  margin: 3px 0;
+}
+
+#ham-bars-wrapper {
+  align-self: flex-start;
+  margin-top: 3vh;
+}
+
+#ham-bars-wrapper:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  #ham-bars-wrapper {
+    display: none;
+  }
+
+  #nav-list {
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #wrapper {
+    border-bottom: none;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  #nav-list li {
+    width: 100%;
+    margin: 2.5vw 0;
+  }
+
+  .nav-link {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
 #video-placeholder {
   align-items: center;
   background-color: lightgray;
@@ -44,7 +96,7 @@
   justify-content: center;
   height: 63vh;
   margin-top: 3rem;
-  width: 100%;
+  width: 100vw;
 }
 #video-placeholder p {
   font-size: 2vw;
@@ -75,6 +127,19 @@
   width: 2vw;
 }
 
+@media screen and (max-width: 768px) {
+  #email-container .placeholder {
+    width: 33.333vw;
+  }
+  #email-container .placeholder p {
+    font-size: 3vw;
+  }
+  #email-container .placeholder #email-icon {
+    filter: invert(1);
+    height: 4vw;
+    width: 4vw;
+  }
+}
 #mission-vision {
   align-items: center;
   background-color: #C6B79B;
@@ -97,7 +162,13 @@
 
 @media screen and (max-width: 768px) {
   #mission-vision {
-    padding: 0 10rem;
+    padding: 0 5rem;
+  }
+  #mission-vision h1 {
+    font-size: 5vw;
+  }
+  #mission-vision p {
+    font-size: 2.5vw;
   }
 }
 section {
@@ -105,7 +176,7 @@ section {
 }
 
 #placeholder-section {
-  padding: 5rem 5rem 2rem 5rem;
+  padding: 3vw;
 }
 
 #placeholder-title {
@@ -152,6 +223,39 @@ button {
   align-self: flex-end;
 }
 
+@media screen and (max-width: 768px) {
+  .component {
+    align-items: center;
+    flex-direction: column;
+  }
+  .component h2 {
+    font-size: 5vw;
+    margin-top: 2vh;
+  }
+  .component p {
+    font-size: 2.5vw;
+  }
+  .component button {
+    font-size: 2.5vw;
+    width: 33.333vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #reversed-component {
+    align-items: center;
+    flex-flow: wrap-reverse;
+  }
+  #reversed-component img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .contact-container {
   background-color: white;
   display: flex;
@@ -174,6 +278,14 @@ button {
   font-size: 1.75vw;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-container .placeholder {
+    width: 33.33vw;
+  }
+  .contact-container .placeholder p {
+    font-size: 3.5vw;
+  }
+}
 footer {
   border-top: 3px solid #C6B79B;
   padding: 1rem;
@@ -194,6 +306,16 @@ footer {
   border-bottom: 3px solid #C6B79B;
 }
 
+#footer-logo {
+  width: 100px;
+  height: 100px;
+  background-color: #C6B79B;
+  border: transparent;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #social-icons {
   margin: 1rem 0;
 }
@@ -205,11 +327,16 @@ footer {
 }
 
 #mailto-link {
-  color: white;
+  color: #C6B79B;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  #footer-list {
+    display: none;
+  }
+}
 body {
   font: 100% Helvetica, sans-serif;
   overflow-x: hidden;
@@ -262,6 +389,17 @@ button {
   width: 33.333%;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-imgs {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-img {
+    width: 80vw;
+    margin: 2vh 2vw;
+  }
+}
 .services-component {
   border-top: 5px solid #C6B79B;
   margin: 3rem;
@@ -301,6 +439,26 @@ button {
   height: 75px;
 }
 
+@media screen and (max-width: 768px) {
+  .services-component h1 {
+    font-size: 5vw;
+  }
+
+  .services-grid {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .services-content-wrapper {
+    width: 95%;
+  }
+  .services-content-wrapper h2 {
+    font-size: 4vw;
+  }
+  .services-content-wrapper p {
+    font-size: 2.5vw;
+  }
+}
 #about-section {
   border-top: 3px solid #C6B79B;
   padding: 3rem 0;
@@ -315,6 +473,14 @@ button {
   text-indent: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  #about-section h1 {
+    font-size: 5vw;
+  }
+  #about-section .description-content p {
+    font-size: 2.5vw;
+  }
+}
 .contact-form-container {
   border: 10px solid #C6B79B;
   border-radius: 10px;
@@ -347,6 +513,18 @@ button {
   margin: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  #contact-section h1 {
+    font-size: 5vw;
+  }
+
+  .contact-form-container {
+    width: 85vw;
+  }
+  .contact-form-container p {
+    font-size: 3vw;
+  }
+}
 .pillar-container {
   border-bottom: 3px solid #C6B79B;
   display: flex;
@@ -366,6 +544,12 @@ button {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .pillar-container {
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .bg-black {
   background-color: black;
   height: 100%;

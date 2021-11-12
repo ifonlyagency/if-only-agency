@@ -31,3 +31,20 @@
         margin: 1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #contact-section {
+        h1 {
+            font-size: 5vw;
+        }
+    }
+
+    .contact-form-container {
+        width: 85vw;
+        
+        p {
+            font-size: 3vw;
+        }
+    }
+    
+}
