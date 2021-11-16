@@ -141,13 +141,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  #email-container .placeholder {
+  #email-container .email-btn {
     width: 33.333vw;
   }
-  #email-container .placeholder p {
+  #email-container .email-btn p {
     font-size: 3vw;
   }
-  #email-container .placeholder #email-icon {
+  #email-container .email-btn #email-icon {
     filter: invert(1);
     height: 4vw;
     width: 4vw;
@@ -295,10 +295,10 @@ button {
 }
 
 @media screen and (max-width: 768px) {
-  .contact-container .placeholder {
+  .contact-container .btn {
     width: 33.33vw;
   }
-  .contact-container .placeholder p {
+  .contact-container .btn p {
     font-size: 3.5vw;
   }
 }
@@ -482,6 +482,7 @@ button {
   position: fixed;
   top: 0;
   left: 50vw;
+  margin-left: -25px;
   width: 50px;
   height: 50px;
 }
