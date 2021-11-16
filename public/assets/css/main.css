@@ -109,22 +109,35 @@
   margin: 0 0 1rem 0;
   padding: 0;
 }
-#email-container .placeholder {
+#email-container .email-btn {
+  align-items: center;
   background-color: #C6B79B;
   border: transparent;
   border-radius: 20px;
   color: white;
   display: flex;
+  height: 6.5vh;
   justify-content: space-evenly;
   width: 15vw;
 }
-#email-container .placeholder p {
+#email-container .email-btn p {
   font-size: 1.75vw;
 }
-#email-container .placeholder #email-icon {
+#email-container .email-btn #email-icon {
   filter: invert(1);
   height: 2vw;
   width: 2vw;
+}
+#email-container .email-btn:hover {
+  background-color: transparent;
+  border: 3px solid #C6B79B;
+  color: #C6B79B;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+#email-container .email-btn:hover #email-icon {
+  filter: invert(92%) sepia(3%) saturate(2626%) hue-rotate(350deg) brightness(90%) contrast(69%);
+  transition: 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -236,6 +249,7 @@ button {
     font-size: 2.5vw;
   }
   .component button {
+    border: 3px solid transparent;
     font-size: 2.5vw;
     width: 33.333vw;
     margin-left: auto;
@@ -265,16 +279,18 @@ button {
   padding: 0;
   text-transform: uppercase;
 }
-.contact-container .placeholder {
+.contact-container .btn {
+  align-items: center;
   background-color: #C6B79B;
   border: transparent;
   border-radius: 10px;
   color: white;
   display: flex;
+  height: 6vh;
   justify-content: center;
   width: 25vw;
 }
-.contact-container .placeholder p {
+.contact-container .btn p {
   font-size: 1.75vw;
 }
 
@@ -373,6 +389,105 @@ button {
   padding: 0.5rem;
   text-align: center;
   width: 25%;
+}
+
+.modal {
+  animation-duration: 2s;
+  animation-name: fadeOut;
+  background-color: #C6B79B;
+  background-color: rgba(198, 183, 155, 0.75);
+  display: none;
+  height: 100vh;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.modal-content {
+  margin: 5vh auto;
+  padding: 20px;
+  width: 80vw;
+}
+.modal-content p {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal-logo {
+  background-color: #929292;
+  width: 500px;
+  height: 500px;
+  margin: 7vh auto 3vh auto;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 100%;
+  }
+  10% {
+    opacity: 100%;
+  }
+  20% {
+    opacity: 100%;
+  }
+  30% {
+    opacity: 100%;
+  }
+  40% {
+    opacity: 90%;
+  }
+  50% {
+    opacity: 80%;
+  }
+  60% {
+    opacity: 70%;
+  }
+  70% {
+    opacity: 60%;
+  }
+  80% {
+    opacity: 50%;
+  }
+  90% {
+    opacity: 40%;
+  }
+  100% {
+    opacity: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 100vw;
+  }
+
+  .modal-logo {
+    width: 300px;
+    height: 300px;
+  }
+}
+.btn:hover {
+  background-color: transparent;
+  outline: 3px solid #C6B79B;
+  color: #C6B79B;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+#up-arrow {
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  width: 50px;
+  height: 50px;
+}
+
+#up-arrow:hover {
+  cursor: pointer;
 }
 
 .hero-imgs {
