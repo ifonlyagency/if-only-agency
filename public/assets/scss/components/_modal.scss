@@ -1,0 +1,92 @@
+.modal {
+    animation-duration: 2s;
+    animation-name: fadeOut;
+    background-color: #C6B79B;
+    background-color: rgba(198, 183, 155, 0.75);
+    display: none;
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+  
+.modal-content {
+    margin: 5vh auto; 
+    padding: 20px;
+    width: 80vw;
+
+    p {
+        font-size: 3vw;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.modal-logo {
+      background-color: rgb(146, 146, 146);
+      width: 500px;
+      height: 500px;
+      margin: 7vh auto 3vh auto;
+}
+
+@keyframes fadeOut {
+
+    0% {
+        opacity: 100%;
+    }
+
+    10% {
+        opacity: 100%;
+    }
+
+    20% {
+        opacity: 100%;
+    }
+
+    30% {
+        opacity: 100%;
+    }
+
+    40% {
+        opacity: 90%;
+    }
+
+    50% {
+        opacity: 80%;
+    }
+
+    60% {
+        opacity: 70%;
+    }
+
+    70% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 50%;
+    }
+
+    90% {
+        opacity: 40%;
+    }
+
+    100% {
+        opacity: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 100vw;
+    }
+
+    .modal-logo {
+        width: 300px;
+        height: 300px;
+    }
+}
