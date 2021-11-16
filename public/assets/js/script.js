@@ -1,3 +1,5 @@
+// Animation for the hamburger nav bar
+
 let hamBars = document.getElementById('ham-bars-wrapper');
 let bar1 = document.getElementById('ham-bar-1');
 let bar2 = document.getElementById('ham-bar-2');
@@ -26,3 +28,25 @@ function animateNav() {
 
     }
 }
+
+// Show and hide up arrow depending on page position
+// Clicking the up arrow takes a user to the top of the page
+
+document.addEventListener('scroll', checkScroll)
+let upArrow = document.getElementById('up-arrow');
+
+function checkScroll() {
+    if(window.scrollY > 100) {
+        upArrow.setAttribute('style', 'display: block !important;')
+    } else {
+        upArrow.setAttribute('style', 'display: none !important;')
+    }
+}
+
+upArrow.addEventListener('click', takeToTop)
+
+function takeToTop () {
+    scroll(0,0);
+}
+
+checkScroll();
