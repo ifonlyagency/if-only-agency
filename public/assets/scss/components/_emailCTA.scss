@@ -5,12 +5,14 @@
     margin: 0 0 1rem 0;
     padding: 0;
 
-    .placeholder {
+    .email-btn {
+        align-items: center;
         background-color: #C6B79B;
         border: transparent;
         border-radius: 20px;
         color: white;
         display: flex;
+        height: 6.5vh;
         justify-content: space-evenly;
         width: 15vw;
 
@@ -23,6 +25,20 @@
             height: 2vw;
             width: 2vw;
         }
+    }
+
+    .email-btn:hover {
+        background-color: transparent;
+        border: 3px solid #C6B79B;
+        color: #C6B79B;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+
+        #email-icon {
+            filter: invert(92%) sepia(3%) saturate(2626%) hue-rotate(350deg) brightness(90%) contrast(69%);
+            transition: 0.5s ease-in-out;
+        }
+
     }
 }
 
