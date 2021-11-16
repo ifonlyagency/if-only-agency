@@ -7,12 +7,14 @@
     padding: 0;
     text-transform: uppercase;
 
-    .placeholder {
+    .btn {
+        align-items: center;
         background-color: #C6B79B;
         border: transparent;
         border-radius: 10px;
         color: white;
         display: flex;
+        height: 6vh;
         justify-content: center;
         width: 25vw;
 
