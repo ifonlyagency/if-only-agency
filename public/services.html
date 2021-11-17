@@ -41,11 +41,29 @@
 
    <main>
 
-      <div class="hero-imgs">
-         <div class="hero-img"></div>
-         <div class="hero-img"></div>
-         <div class="hero-img"></div>
+      <div class="carousel">
+         <img id="displayed-picture" src="https://picsum.photos/1200/400?grayscale&random=1" />
+
+         <div class="controls-container">
+            <img id="left-arrow" src="assets/imgs/up-arrow-placeholder.png" />
+
+            <div id="first" class="active-circle circle-control"></div>
+            <div id="second" class="circle-control"></div>
+            <div id="third" class="circle-control"></div>
+            <div id="fourth" class="circle-control"></div>
+            <div id="fifth" class="circle-control"></div>
+
+            <img id="right-arrow" src="assets/imgs/up-arrow-placeholder.png" />
+
+         </div>
+
       </div>
+
+      <!-- <div class="hero-imgs">
+         <div class="hero-img"></div>
+         <div class="hero-img"></div>
+         <div class="hero-img"></div>
+      </div> -->
 
       <div id="email-container">
          <button class="email-btn">
@@ -252,7 +270,8 @@
      <a id="mailto-link" href="mailto:info@ifonlyagency@gmail.com">ifonlyagency@gmail.com</a>
 
    </footer>
-   
+
+   <script src="assets/js/carousel.js"></script>
    <script src="assets/js/script.js"></script>
 
 </body>
